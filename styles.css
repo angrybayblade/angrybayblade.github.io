@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,7 @@ body{
 main {
   padding: 50px;
   width: 900px;
-  margin: 0px auto;
+  min-height: 100vh;
   background: whitesmoke;
 }
 
@@ -45,11 +45,11 @@ a:visited {
   width: 124px;
 }
 
-.profile .info{
+.profile .info {
   padding: 10px 0px;
 }
 
-.profile .info .name{
+.profile .info .name {
   font-weight: 600;
   font-size: 48px;
 }
@@ -59,9 +59,6 @@ a:visited {
   gap: 10px;
   padding-left: 5px;
   margin-top: 15px;
-}
-
-.profile .links a {
 }
 
 .profile .links a img {
