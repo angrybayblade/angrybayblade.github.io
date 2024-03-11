@@ -14,10 +14,17 @@ body {
   background: #333;
 }
 
-main {
+main{
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
   padding: 50px;
   width: 900px;
-  min-height: 100vh;
   background: whitesmoke;
 }
 
